@@ -1,63 +1,104 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Website Portolio</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body = "myPage" data-spy = "scroll" data-target = ".navbar" data-offset = "60">
-    <!-- Navagation Bar -->
-    <nav class = "navbar navbar-inverse navbar-fixed-top">
-      <div class = "container">
-        <div class="navbar-header">
-          <button type="button" class ="navbar-toggle" data-toggle = "collapse" data-target ="#myNavbar">
-            <span class = "icon-bar"></span>
-            <span class = "icon-bar"></span>
-            <span class = "icon-bar"></span>
-          </button>
-          <a class = "navbar-brand" href = "#myPage">Me</a>
-        </div>
-        <div class = "collapse navbar-collapse" id = "myNavbar">
-          <ul class = "nav navbar-nav navbar-right">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+
+<head>
+  <title>Website Portolio</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .jumbotron {
+    background-color: rgb(27, 27, 31);
+    color: rgb(255, 255, 255);
+    padding: 100px 25px;
+  }
+
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo {
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+</style>
+
+<body>
+  <!-- Front Page -->
+  <div class="jumbotron text-center">
+    <h1>Andrew Miller</h1>
+    <button type="button" class="btn btn-default">Begin</button>
+    <p>Programmer | Software Developer | Website Designer</p>
+  </div>
+  <!-- About Section -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <h2>About Me</h2>
+        <h4>I am currently a student at Benedictine College in Atchison Kansas studying Computer Science.
+        I believe in a learn by doing approach which is why I wanted to create this portfolio.
+        Below this section you should find links to corresponding projects on Github I've created and I hope to have more on the way. </h4>
+        <p>I enjoy all things coding and sports. I am always ready to learn about all things programming. The thought of expanding my knowledge on a new language or framework is very exciting and I can't wait to see where the industry takes me. I am willing
+          to learn whatever I need to in order to excel at a job and I am always looking at new ways to solve different problems.</p>
+        <button class="btn btn-defualt btn-lg">Get in Touch</button>
+        <div class = "col-sm-4">
+          <span class = "glyphicon glyphicon-education logo"></span>
         </div>
       </div>
-    </nav>
-   <!-- Front Page -->
-   <div class = "jumbotron text-center">
-     <h1>Andrew Miller</h1>
-     <button type = "button" class = "btn btn-info">Explore</button>
-     <p>Programmer | Web Developer | Software Developer</p>
-   </div>
-   <!-- About Section -->
-   <div id = "about" class = "container-fluid">
-     <div class = "row">
-       <div class = "col-sm-8">
-         <h2>About Me</h2>
-         <h4>I am currently a student at Benedictine College in Atchison Kansas studying Computer Science.
-            I believe in a learn by doing approach which is why I wanted to create this portfolio.
-            Below this section you should find links to corresponding projects on Github I've created and I hope to have more on the way. </h4>
-            <p>I enjoy all things coding and sports. I am always ready to learn about all things programming.
-            The thought of expanding my knowledge on a new language or framework is very exciting and I can't wait to see where the industry takes me.
-            I am willing to learn whatever I need to in order to excel at a job and I am always looking at new ways to solve different problems.</p>
-            <br>
-            <button class = "btn btn-default btn-lg"><a href="#contact">Get in Touch</a></button>
-       </div>
-       <div class = "col-sm-4">
-         <span class = "glyphicon glyphicon-education logo slideanim"></span>
-       </div>
-     </div>
-   </div>
-   <!-- Projects section -->
-   <!-- Skills section -->
-   <!-- Contact section -->
-  </body>
+    </div>
+  </div>
+  <!-- Projects section -->
+  <div class = "container-fluid bg-grey">
+    <div class = "row">
+      <div class = "col-sm-4">
+        <span class = "glyphicon glyphicon-folder-open logo"></span>
+      </div>
+      <div class = "col-sm-8">
+        <h2>What I've Done</h2>
+      </div>
+    </div>
+  </div>
+  <!-- Skills section -->
+  <div class = "container-fluid text-center">
+    <h2>Skills</h2>
+    <h4>Languages</h4>
+    <br>
+    <div class = "row">
+      <div class = "col-sm-4">
+        <h4>Python</h4>
+      </div>
+      <div class = "col-sm-4">
+        <h4>Java</h4>
+      </div>
+      <div class = "col-sm-4">
+        <h4>JavaScript</h4>
+      </div>
+    </div>
+    <br><br>
+    <div class = "row">
+      <div class = "col-sm-4">
+        <h4>Ruby</h4>
+      </div>
+      <div class = "col-sm-4">
+        <h4>SQL</h4>
+      </div>
+      <div class = "col-sm-4">
+        <h4>C</h4>
+      </div>
+    </div>
+  </div>
+  <!-- Contact section -->
+</body>
+
 </html>
