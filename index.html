@@ -45,16 +45,23 @@
     }
 
     .bg-grey {
-      background-color: #989788;
+      background-attachment: fixed;
+      background-image: -webkit-linear-gradient(bottom, slategrey, lightgrey);
+      background-image: -o-linear-gradient(bottom, slategrey, lightgrey);
+      background-image: linear-gradient(to top, slategrey, lightgrey);
     }
 
     .bg-lightgrey {
-      background-color: #b7b8b4
+      background-attachment: fixed;
+      background-image: -webkit-linear-gradient(slategrey, lightgrey);
+      background-image: -o-linear-gradient(slategrey, lightgrey);
+      background-image: linear-gradient(slategrey, lightgrey);
     }
 
-    .logo-small {
-      color: #393F3F;
-      font-size: 50px;
+    .img-center {
+      display: block;
+      margin: auto;
+      width: 50%;
     }
 
     .logo {
@@ -85,6 +92,10 @@
     .carousel-control.left {
       background-image: none;
       color: #020402;
+    }
+    .car-img {
+      width: 70%;
+      margin: auto;
     }
 
     .carousel-indicators li {
@@ -204,7 +215,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#myPage">Me</a>
+        <a class="navbar-brand" href="http://github.com/mill1893">Me</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
@@ -229,11 +240,10 @@
       <div class="col-sm-8">
         <h2>About Me</h2>
         <br>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+        <h4>I am a computer science major at Benedictine College in Atchison Kansas. I switched my major after my freshman year and have enjoyed everything about Computer Science since. I am looking forward to creating more projects and expanding my knowledge further.</h4>
         <br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Coding for fun has been my main hobby for the past six months. I have enjoyed learning new languages and I hope to be able to continue learning new and exciting aspects of CompSci while I work on my education. Sports are my other passion and I love a good basketball or football game.
+        A job where I could combine these would be my dream but I also want to find work helping as many people as I can.</p>
         <br>
         <button class="btn btn-default btn-lg"><a href="#contact">Get in Touch</a></button>
       </div>
@@ -243,7 +253,7 @@
     </div>
   </div>
 
-  <div class="container-fluid bg-grey">
+  <div class="container-fluid bg-lightgrey">
     <div class="row">
       <div class="col-sm-4">
         <span class="glyphicon glyphicon-globe logo slideanim"></span>
@@ -251,11 +261,10 @@
       <div class="col-sm-8">
         <h2>My Values</h2>
         <br>
-        <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+        <h4><strong>MISSION:</strong> To secure a job in the field of computer science before my graduation in May of 2018. To create a project that is widely used by programmer and developers everywhere.</h4>
         <br>
-        <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.</p>
+        <p><strong>VISION:</strong> Get an internship in the summer of my junior year, so that I may get some experience working in the field before I graduate.
+           Find a job that helps me achieve my dreams of helping people live better, more fulfilling lives after graduation. Work my way into an upper management position.</p>
       </div>
     </div>
   </div>
@@ -267,38 +276,26 @@
     <br>
     <div class="row slideanim">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-off logo-small"></span>
-        <h4>POWER</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <img src="http://www.javatpoint.com/images/javascript/javascript_logo.png" alt="JavaScript" class = "img-responsive img-center">
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-heart logo-small"></span>
-        <h4>LOVE</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <img src="https://ignite.apache.org/images/java.png" alt="Java" class = "img-responsive img-center">
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-lock logo-small"></span>
-        <h4>JOB DONE</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <img src="http://www.bebetterdeveloper.com/img/post_img/python-logo.png" alt="Python" class = "img-responsive img-center">
       </div>
     </div>
     <br>
     <br>
     <div class="row slideanim">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-leaf logo-small"></span>
-        <h4>GREEN</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <img src="https://usercontent2.hubstatic.com/1012499_f248.jpg" alt="C" class = "img-responsive img-center" >
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-certificate logo-small"></span>
-        <h4>CERTIFIED</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <img src="https://azure.microsoft.com/svghandler/sql-database/?width=600&height=315" alt="SQL" class="img-responsive img-center">
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4 style="color:#303030;">HARD WORK</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <img src="https://s.w.org/about/images/logos/wordpress-logo-stacked-rgb.png" alt="Wordpress" class="img-responsive img-center">
       </div>
     </div>
   </div>
@@ -320,13 +317,16 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+            <a href="#"><img src="http://werehumans.com/wp-content/uploads/2016/04/CodingSnippet.jpg" alt="Placeholder image" class = "car-img"></a>
+            <br><span style="font-style:normal;">Project Name</span>
         </div>
         <div class="item">
-          <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+          <a href="#"><img src="http://werehumans.com/wp-content/uploads/2016/04/CodingSnippet.jpg" alt="Placeholder image" class = "car-img"></a>
+          <br><span style="font-style:normal;">Project Name</span>
         </div>
         <div class="item">
-          <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+          <a href="#"><img src="http://werehumans.com/wp-content/uploads/2016/04/CodingSnippet.jpg" alt="Placeholder image" class = "car-img"></a>
+          <br><span style="font-style:normal;">Project Name</span>
         </div>
       </div>
 
@@ -404,7 +404,7 @@
   </div>
 
   <!-- Container (Contact Section) -->
-  <div id="contact" class="container-fluid bg-grey">
+  <div id="contact" class="container-fluid">
     <h2 class="text-center">CONTACT</h2>
     <div class="row">
       <div class="col-sm-5">
